@@ -1,0 +1,25 @@
+img{
+  height: 200px;
+  width: 30%;
+}
+body{
+  background-color: #f7f7f7;
+  padding-left: 40px;
+}
+li{
+  font-size: 30px;
+  padding-top: 10px;
+  list-style: none;
+
+}
+h6{
+  font-weight: normal;
+}
+h4{
+  font-size: 20px;
+  font-weight: normal;
+}
+h1{
+  border-bottom: 3px solid #eee;
+  padding-top: 20px;
+}

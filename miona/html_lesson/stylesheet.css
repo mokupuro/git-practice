@@ -1,0 +1,399 @@
+
+*{
+  margin: 0px;
+  padding:0px;
+}
+
+  .main,
+  .side {
+    width: 100%;
+  }
+}
+.wrapper{
+  width: 100%;
+  margin:0 auto;
+
+}
+header{
+  background-color: tomat;
+  background-image:url(https://time-fun.fun/wp-content/uploads/2020/07/twitter-yellow58-768x256.jpg);
+padding-top: 60px;
+  background-size: cover;
+  background-position:center;
+  height:130px;
+
+}
+
+.mozi{/* ヘッダーの文字:  */
+  color:#333333;
+font-family: 'Homemade Apple', cursive;
+font-size: 30px;
+text-align:left;
+padding-left: 80px;
+
+}
+.mozi h6{
+  color: #333333;
+  text-align: right;
+  margin-right: 40px;
+}
+.container{
+  display: flex;
+}
+.main {
+background-color: #f7f7f7;
+width: 70%;
+}
+.side{
+  background-color: orang;
+  width: 30%;
+  background-image: url(https://cdn-ak.f.st-hatena.com/images/fotolife/n/noahnknown/20141026/20141026015909.png);
+background-size: cover;
+
+border-right: 30px solid #f7f7f7;
+border-left: 1px solid black;
+
+}
+
+.point{
+  background-color: #f7f7f7;
+  padding-left: 40px;
+}
+
+.comment{
+  background-color:#f7f7f7;
+padding-left: 40px;
+}
+.rink{
+  background-color:#f7f7f7;
+  padding-left: 40px;
+  height: 970px;
+}
+footer{
+  background-color: plu;
+  background-image: url(https://time-fun.fun/wp-content/uploads/2020/07/twitter-yellow53-768x256.jpg);
+  height: 60px;
+  background-size: cover;
+  background-position: top;
+
+}
+
+.自己紹介{
+border-bottom:dashed 5px #ffaf58;
+margin-right:90px;
+  font-family:serif;
+  padding-top: 20px;
+}
+li{
+  list-style: none;
+  font-size: 25px;
+   font-family:serif;
+   font-weight: bolder;
+   padding-top: 20px;
+}
+.list{
+padding-left: 40px;
+}
+.出身{
+  padding-top: 10px;
+}
+.balloon1-left {/* 一番目左側吹き出し:  */
+  position: relative;
+  display: inline-block;
+  margin: 1.5em 0 1.5em 15px;
+  padding: 7px 10px;
+  min-width: 120px;
+  max-width: 100%;
+  color: #555;
+  font-size: 16px;
+  background: #00ff33;
+  border-radius: 15px;
+}
+
+.balloon1-left:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: -30px;
+  margin-top: -15px;
+  border: 15px solid transparent;
+  border-right: 15px solid #00ff33;
+}
+
+.balloon1-left p {
+  margin: 0;
+  padding: 0;
+}
+.balloon1-right{/* 二番目の右側の吹き出し:  */
+  position: relative;
+  display: inline-block;
+  margin: 1.5em 15px 1.5em 190px;
+  padding: 7px 10px;
+  min-width: 120px;
+  max-width: 100%;
+  color: #555;
+  font-size: 16px;
+  background-color: #00ff33;
+  border-radius: 15px;
+}
+.balloon1-right:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  margin-top: -15px;
+  border: 15px solid transparent;
+  border-left: 15px solid #00ff33;
+}
+.balloon1-right p{
+  margin: 0;
+  padding: 0;
+}
+.line{/* なんちゃってトーク:  */
+  padding-top: 20px;
+  color:white;
+  text-align: center;
+  background-color:rgb(0,0,0,0.6);
+
+}
+.comment h1{/* ひとことのタイトル:  */
+  font-family:serif;
+
+  border-bottom:dashed 5px #ffaf58;
+  margin-right:450px;
+}
+.ひとこと{/* ひとことの内容  */
+  font-size: 20px;
+  font-family:serif;
+padding-bottom: 40px;
+}
+
+.balloon2-left {/* 三番目左側吹き出し:  */
+  position: relative;
+  display: inline-block;
+  margin: 1.5em 0 1.5em 15px;
+  padding: 7px 10px;
+  min-width: 120px;
+  max-width: 100%;
+  color: #555;
+  font-size: 16px;
+  background: #00ff33;
+  border-radius: 15px;
+}
+
+.balloon2-left:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: -30px;
+  margin-top: -15px;
+  border: 15px solid transparent;
+  border-right: 15px solid #00ff33;
+}
+
+.balloon2-left p {
+  margin: 0;
+  padding: 0;
+}
+.balloon2-right {/* 四番目右側吹き出し:  */
+  position: relative;
+  display: inline-block;
+  margin: 1.5em 10px 1.5em 100px;
+  padding: 7px 10px;
+  min-width: 120px;
+  max-width: 100%;
+  color: #555;
+  font-size: 16px;
+  background: #00ff33;
+  border-radius: 15px;
+}
+
+.balloon2-right:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  margin-top: -15px;
+  border: 15px solid transparent;
+  border-left: 15px solid #00ff33;
+}
+
+.balloon2-right p {
+  margin: 0;
+  padding: 0;
+}
+.stanp{/* ミィのスタンプ:  */
+  margin-top:-60px;
+  margin-left: 80px;
+}
+.kaiwa__contants{
+  width: 360px;
+  height: 400px;
+  overflow:scroll;
+}
+
+.point h1{/* 今年の目標:  */
+  border-bottom:dashed 5px #ffaf58;
+    font-family:serif;
+margin-right:450px;
+}
+.point h2{/* 留学と～:  */
+  font-size: 50px;
+  padding-top: 30px;
+    font-family:serif;
+    padding-bottom: 40px;
+    transition: color 1.0s;
+}
+.footer-logo{/* このホームページは～:  */
+  text-align: center;
+  font-family: serif;
+  padding-top: 20px;
+  font-size: 20px;
+}
+.my-red{/* やじるしアイコンの色:  */
+  color: #FF6928;
+}
+.balloon3-left {/* 五番目ひだりがわ吹き出し:  */
+  position: relative;
+  display: inline-block;
+  margin: 1.5em 0 1.5em 15px;
+  padding: 7px 10px;
+  min-width: 120px;
+  max-width: 100%;
+  color: #555;
+  font-size: 16px;
+  background: #00ff33;
+  border-radius: 15px;
+}
+
+.balloon3-left:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: -30px;
+  margin-top: -15px;
+  border: 15px solid transparent;
+  border-right: 15px solid #00ff33;
+}
+
+.balloon3-left p {
+  margin: 0;
+  padding: 0;
+}
+.my-ghost{
+  font-size: 6em;
+  padding-left: 30px;
+  color: white;
+}
+.syounan{/* 湘南だよ！:  */
+  font-size: 50px;
+transition:color 0.5s;
+}
+.syounan:hover{
+  color: blue;
+}
+.game{/* ゲーム　アニメ鑑賞:  */
+  font-size: 50px;
+  transition:color 0.5s;
+}
+.game:hover{
+  color: red;
+}
+.point h2:hover{/* 留学と～のアニメ:  */
+color:#FFAAFF;
+}
+.kimetu{/*滅:  */
+  font-size: 30px;
+  color:red;
+  transition: font-size 0.5s;
+}
+.kimetu:hover{
+  font-size: 50px;
+}
+.iyou{/* 異様:  */
+  font-size: 30px;
+  color:#66CCFF;
+  transition: font-size 0.5s;
+}
+.iyou:hover{
+  font-size: 50px;
+}
+.huku{/* 副代表:  */
+  font-size: 30px;
+  color:#FFD700;
+  transition: font-size 0.5s;
+}
+.huku:hover{
+  font-size: 50px;
+}
+.my-crown{
+  color:#FFD700;
+
+}
+.my-child{
+  color:#8EB8FF;
+}
+.rinkh1{/* その他のご紹介:  */
+  font-family: serif;
+    border-bottom:dashed 5px #ffaf58;
+    margin-right:450px;
+}
+.rinkimg1{/* レッスンアイコン三つ:  */
+  height: 250px;
+  width: 25%;
+position: relative;
+padding-right: 70px;
+padding-top: 20px;
+padding-left: 20px;
+}
+.rinkimg1:hover{
+  filter: alpha(opacity=70);
+  -moz-opacity: 0.7;
+  opacity: 0.7;
+}
+.check-btn{
+  padding-top: 40px;
+  text-align: center;
+  background-color: rgba(192,192,192,0.4);
+  margin-left: 120px;
+  margin-right: 160px;
+  margin-top: 80px;
+  border-radius: 5px;
+
+}
+input{
+  width: 40px;
+  height: 15px;
+}
+.input-content{
+  font-size: 20px;
+  font-weight: normal;
+}
+.input-content:hover{
+  cursor: default;
+}
+.signup{
+  padding: 10px 30px;
+  color: #222222;
+  display: inline-block;
+  opacity: 0.8;
+  background-color: #FFCC33;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 5px #CC9966;
+  cursor: pointer;
+  font-weight: bolder;
+}
+.signup:active{
+  box-shadow: none;
+  position:relative;
+  top: 5px;
+  cursor: pointer;
+}
+.my-hukidasi{
+  color: #FF97C2;
+}
+.my-bicycle{
+  text-align: left;
+}
